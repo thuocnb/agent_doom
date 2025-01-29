@@ -1,0 +1,187 @@
+/*======================================== config =================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+  transition: 0.3s all !important;
+}
+a:hover {
+  color: #EC7700;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+body {
+  background: url("../images/bg.jpg") no-repeat center;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3 !important;
+  font-family: "Inter", serif;
+  font-weight: normal;
+  overflow: hidden;
+}
+@media (max-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+body img {
+  transition: 0.34s all !important;
+  max-width: 100%;
+  display: inline;
+}
+body svg {
+  display: inline !important;
+}
+body h1 h2, body h3 h4, body h5 h6 {
+  line-height: 1.3;
+}
+body .container {
+  max-width: 1424px;
+  width: 100%;
+}
+body .w-100 {
+  width: 100%;
+}
+body .row {
+  margin: 0 -12px;
+}
+body .row > div {
+  padding: 0 12px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none !important;
+}
+
+/*======================================== end config =================================*/
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+@media (max-width: 767px) {
+  .content-header {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .content-header .logo {
+    margin-bottom: 12px;
+  }
+}
+.content-header .logo img {
+  width: auto;
+  height: 90px;
+}
+@media (max-width: 1440px) {
+  .content-header .logo img {
+    height: 80px;
+  }
+}
+@media (max-width: 1200px) {
+  .content-header .logo img {
+    height: 70px;
+  }
+}
+@media (max-width: 1023px) {
+  .content-header .logo img {
+    height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .content-header .logo img {
+    height: 36px;
+  }
+}
+.content-header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .content-header ul {
+    justify-content: center;
+  }
+}
+.content-header ul li {
+  margin-right: 80px;
+}
+@media (max-width: 1023px) {
+  .content-header ul li {
+    margin-right: 40px;
+  }
+}
+.content-header ul li:last-child {
+  margin-right: 0;
+}
+.content-header ul li a {
+  color: #fff;
+}
+
+.box-video {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 122px);
+  top: 122px;
+  padding: 0 16px 16px 16px;
+}
+@media (max-width: 1023px) {
+  .box-video {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .box-video {
+    height: calc(100vh - 98px);
+    top: 98px;
+  }
+}
+.box-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
